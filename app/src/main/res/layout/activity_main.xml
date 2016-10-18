@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ubiquitousapps.fitorflab.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#2ca5f5"
+        android:background="@drawable/rounded_corners"
+        android:layout_weight="1"
+        android:layout_marginBottom="5sp">
+
+        <TextView
+            android:text="30%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirtyPercent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40sp"
+            android:paddingRight="5sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:text="Weight Lifting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:paddingLeft="5sp"
+            android:textSize="24sp"
+            android:id="@+id/weightLifting"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:paddingBottom="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Do you even lift?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doYouLift"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="5sp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:paddingBottom="5sp" />
+
+        <TextView
+            android:text="10 Sets"
+            android:layout_height="wrap_content"
+            android:id="@+id/tenSets"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="5sp"
+            android:gravity="right"
+            android:padding="5sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_width="90sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/weight"
+            android:id="@+id/weight"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#916bcd"
+        android:background="@drawable/rounded_corners"
+        android:layout_weight="1"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:elevation="1dp">
+
+        <TextView
+            android:text="30%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirtyPercent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40sp"
+            android:paddingRight="5sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:text="Weight Lifting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:paddingLeft="5sp"
+            android:textSize="24sp"
+            android:id="@+id/weightLifting"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:paddingBottom="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Do you even lift?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doYouLift"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="5sp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:paddingBottom="5sp" />
+
+        <TextView
+            android:text="10 Sets"
+            android:layout_height="wrap_content"
+            android:id="@+id/tenSets"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="5sp"
+            android:gravity="right"
+            android:padding="5sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_width="90sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/lotus"
+            android:id="@+id/weight"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#52AD56"
+        android:background="@drawable/rounded_corners"
+        android:layout_weight="1"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp">
+
+        <TextView
+            android:text="30%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thirtyPercent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="40sp"
+            android:paddingRight="5sp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:text="Weight Lifting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#ffffff"
+            android:paddingLeft="5sp"
+            android:textSize="24sp"
+            android:id="@+id/weightLifting"
+            android:layout_alignParentEnd="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="false"
+            android:layout_alignParentTop="false"
+            android:paddingBottom="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="Do you even lift?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doYouLift"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:paddingLeft="5sp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:paddingBottom="5sp" />
+
+        <TextView
+            android:text="10 Sets"
+            android:layout_height="wrap_content"
+            android:id="@+id/tenSets"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:paddingRight="5sp"
+            android:gravity="right"
+            android:padding="5sp"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#20000000"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_width="90sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/heart"
+            android:id="@+id/weight"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
