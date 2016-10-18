@@ -24,7 +24,7 @@
             android:text="30%"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/thirtyPercent"
+            android:id="@+id/thirtyPercentWeights"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:textSize="40sp"
@@ -96,10 +96,10 @@
         android:elevation="1dp">
 
         <TextView
-            android:text="30%"
+            android:text="40%"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/thirtyPercent"
+            android:id="@+id/fortyPercent"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:textSize="40sp"
@@ -107,7 +107,7 @@
             android:textColor="#ffffff" />
 
         <TextView
-            android:text="Weight Lifting"
+            android:text="Yoga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -115,7 +115,7 @@
             android:textColor="#ffffff"
             android:paddingLeft="5sp"
             android:textSize="24sp"
-            android:id="@+id/weightLifting"
+            android:id="@+id/yoga"
             android:layout_alignParentEnd="false"
             android:layout_alignParentLeft="false"
             android:layout_alignParentRight="false"
@@ -124,10 +124,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:text="Do you even lift?"
+            android:text="Namaste."
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/doYouLift"
+            android:id="@+id/namaste"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:paddingLeft="5sp"
@@ -136,7 +136,7 @@
             android:paddingBottom="5sp" />
 
         <TextView
-            android:text="10 Sets"
+            android:text="1 Hour"
             android:layout_height="wrap_content"
             android:id="@+id/tenSets"
             android:layout_alignParentTop="true"
@@ -154,7 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/lotus"
-            android:id="@+id/weight"
+            android:id="@+id/lotus"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
 
@@ -173,7 +173,7 @@
             android:text="30%"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/thirtyPercent"
+            android:id="@+id/thirtyPercentCardio"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:textSize="40sp"
@@ -181,7 +181,7 @@
             android:textColor="#ffffff" />
 
         <TextView
-            android:text="Weight Lifting"
+            android:text="Cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -189,7 +189,7 @@
             android:textColor="#ffffff"
             android:paddingLeft="5sp"
             android:textSize="24sp"
-            android:id="@+id/weightLifting"
+            android:id="@+id/cardio"
             android:layout_alignParentEnd="false"
             android:layout_alignParentLeft="false"
             android:layout_alignParentRight="false"
@@ -198,10 +198,10 @@
             android:textStyle="bold" />
 
         <TextView
-            android:text="Do you even lift?"
+            android:text="Run like crazy!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/doYouLift"
+            android:id="@+id/runLikeCrazy"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:paddingLeft="5sp"
@@ -228,7 +228,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:srcCompat="@drawable/heart"
-            android:id="@+id/weight"
+            android:id="@+id/heart"
             android:layout_alignParentTop="true"
             android:layout_alignParentStart="true" />
 
