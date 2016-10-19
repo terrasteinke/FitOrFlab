@@ -9,9 +9,9 @@ import android.widget.RelativeLayout;
 public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_ITEM_TITLE = "extra.item.title";
-    public static final String EXERCISE_WEIGHTS = "weight lifting";
-    public static final String EXERCISE_YOGA = "yoga";
-    public static final String EXERCISE_CARDIO = "cardio";
+    public static final String EXERCISE_WEIGHTS = "Weight Lifting";
+    public static final String EXERCISE_YOGA = "Yoga";
+    public static final String EXERCISE_CARDIO = "Cardio";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
