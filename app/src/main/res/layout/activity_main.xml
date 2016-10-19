@@ -18,7 +18,8 @@
         android:backgroundTint="#2ca5f5"
         android:background="@drawable/rounded_corners"
         android:layout_weight="1"
-        android:layout_marginBottom="5sp">
+        android:layout_marginBottom="5sp"
+        android:id="@+id/weightBtn">
 
         <TextView
             android:text="30%"
@@ -93,7 +94,8 @@
         android:layout_weight="1"
         android:layout_marginBottom="5sp"
         android:layout_marginTop="5sp"
-        android:elevation="1dp">
+        android:elevation="1dp"
+        android:id="@+id/yogaBtn">
 
         <TextView
             android:text="40%"
@@ -167,7 +169,8 @@
         android:background="@drawable/rounded_corners"
         android:layout_weight="1"
         android:layout_marginBottom="5sp"
-        android:layout_marginTop="5sp">
+        android:layout_marginTop="5sp"
+        android:id="@+id/cardioBtn">
 
         <TextView
             android:text="30%"
