@@ -1,5 +1,6 @@
 package com.ubiquitousapps.fitorflab;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +8,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_ITEM_TITLE = "extra.item.title";
     public static final String EXERCISE_WEIGHTS = "weight lifting";
     public static final String EXERCISE_YOGA = "yoga";
     public static final String EXERCISE_CARDIO = "cardio";
@@ -40,8 +42,11 @@ public class MainActivity extends AppCompatActivity {
                 loadDetailActivity(MainActivity.EXERCISE_CARDIO);
             }
         });
+    }
 
     private void loadDetailActivity(String exerciseTitle) {
-
+        Intent intent = new Intent(MainActivity.this, detailsActivity.class);
+        intent.putExtra(MainActivity.EXTRA_ITEM_TITLE, exerciseTitle);
+        startActivity(intent);
     }
 }
