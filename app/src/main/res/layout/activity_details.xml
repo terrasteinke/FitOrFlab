@@ -67,6 +67,7 @@
             android:textSize="20sp"
             android:paddingLeft="100sp"
             android:id="@+id/checkBox2" />
+
         <CheckBox
             android:text="Complete Set 3"
             android:layout_width="wrap_content"
@@ -97,5 +98,22 @@
             android:textSize="20sp"
             android:paddingLeft="100sp"
             android:id="@+id/checkBox2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="Settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/settingsBtn"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:background="@color/colorPrimary"
+                android:textColor="#ffffff"
+                android:fontFamily="sans-serif-medium" />
+        </RelativeLayout>
+
     </LinearLayout>
 </LinearLayout>
